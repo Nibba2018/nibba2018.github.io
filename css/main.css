@@ -5284,3 +5284,8 @@ a.credit {
 /* Common Style */
 .section {
   padding-bottom: 0; }
+
+ul.card_list{
+  padding: 0;
+  margin: 0;
+}
