@@ -5211,6 +5211,10 @@ Created using IcoMoon - icomoon.io
   color: #fff;
   text-transform: uppercase; }
 
+.cc-experience-header-image{
+  padding: 0;
+}
+
 /* Education Style */
 .cc-education .h5 {
   margin-bottom: 0; }
