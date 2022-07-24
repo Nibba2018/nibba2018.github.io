@@ -5295,3 +5295,15 @@ ul.card_list{
   padding: 0;
   margin: 0;
 }
+
+.skills-content{
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+}
+
+.skill-li{
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 2%;
+}
