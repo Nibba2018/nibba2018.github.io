@@ -3426,6 +3426,7 @@ Created using IcoMoon - icomoon.io
 .carousel-item-next,
 .carousel-item-prev,
 .carousel-item.active {
+  height: 300px;
   display: block; }
 
 .carousel .carousel-inner {
