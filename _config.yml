@@ -3,6 +3,15 @@ last_name: "Biswas"
 birth_year: 1999
 bg_image: "/assets/images/cc-bg-1.jpg"
 profile_pic: "/assets/images/profile_pic.jpg"
+summary: |
+  I am a dedicated and highly skilled Software Engineer with a strong foundation in C++, 
+  Python, and the Qt framework, coupled with hands-on experience in developing and 
+  optimizing high-performance applications. Currently, I work at CERN, where I contribute 
+  to critical accelerator control systems, ensuring their reliability and efficiency.<br><br>
+  My experience spans across backend development, UI design with QML, and open-source contributions, 
+  demonstrating my commitment to innovation and technical excellence. With a background in collaborating 
+  on complex projects and mentoring junior developers, I bring a problem-solving mindset and a passion for 
+  advancing technology in regulated industries.
 
 plugins:
   - jekyll-feed
