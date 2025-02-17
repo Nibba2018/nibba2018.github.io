@@ -1,22 +1,7 @@
-collections:
-  authors:
-    output: true
-
-defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+first_name: "Soham"
+last_name: "Biswas"
+birth_year: 1999
+contact_email: "sohambiswas41@gmail.com"
 
 plugins:
   - jekyll-feed
