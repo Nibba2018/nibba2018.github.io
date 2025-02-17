@@ -1,7 +1,8 @@
 first_name: "Soham"
 last_name: "Biswas"
 birth_year: 1999
-contact_email: "sohambiswas41@gmail.com"
+bg_image: "/assets/images/cc-bg-1.jpg"
+profile_pic: "/assets/images/profile_pic.jpg"
 
 plugins:
   - jekyll-feed
