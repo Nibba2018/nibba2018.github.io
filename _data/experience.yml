@@ -1,0 +1,141 @@
+- company: "CERN"
+  role: "Software Engineer"
+  start_date: "March 2023"
+  end_date: "February 2025"
+  logo: "/assets/images/logos/CERN_logo.png"
+  tech_used:
+    - "C++"
+    - "Qt"
+    - "WinCC OA"
+    - "Python"
+    - "Gitlab CI"
+  description: |
+    - I am currently working as a **Software Engineer** under the
+      **Industrial Control Systems** group of the
+      **BEAMS** department at
+      [CERN](https://home.cern/).
+    - I play a pivotal role in developing and maintaining the Alarms and Events screen, a critical 
+      component of CERN's accelerator control system. I carefully consider the system's performance 
+      requirements and incorporate valuable physicist/operator feedback to ensure an optimal user Interface and Experience.
+    - Leveraging my expertise in software engineering, I skillfully utilize the WinCC OA SCADA system framework to 
+      establish seamless interaction between the Alarms and Events screen and the Controls system. To accomplish this, 
+      I employ the Qt framework to create visually appealing graphical user interface elements while harnessing the power of C++ to facilitate the high-speed processing of enormous amounts of data.
+
+    - Technologies that I worked on: C++, Qt, WinCC OA, Python, CI/CD.
+    -  More about BEAMS - Industrial Control Systems group
+      of CERN can be found [here.](https://beams.web.cern.ch/ics)
+
+- company: "Stealth Startup"
+  role: "Software Engineer (Freelance)"
+  start_date: "October 2022"
+  end_date: "December 2022"
+  logo: "/assets/images/logos/stealth.jpg"
+  tech_used:
+    - "Golang"
+    - "RabbitMQ"
+    - "Docker"
+    - "PostgreSQL"
+  description: |
+    - As a golang developer, I spearheaded a transformative project focused on implementing a highly
+      efficient backend API service. My role entailed handling complex blockchain transactions while 
+      prioritizing distributed computing practices to achieve optimal performance. The seamless flow 
+      of data from the user interface to the backend and back was carefully orchestrated, ensuring a 
+      smooth and responsive user experience. <b>RabbitMQ</b> and <b>PostgreSQL</b> were utilized 
+      to implement message queues and database operations respectively.
+
+    - Technologies that I worked on: Golang, RabbitMQ, Docker, PostgreSQL.
+
+- company: "CERN"
+  role: "Software Engineer (Internship)"
+  start_date: "March 2021"
+  end_date: "April 2022"
+  logo: "/assets/images/logos/CERN_logo.png"
+  tech_used:
+    - "Python"
+    - "PyQt"
+    - "pyqtgraph"
+    - "pytest-qt"
+    - "numpy"
+  description: |
+    - I worked as a **Software Engineer** under the
+      **Controls Software and Services** group of the
+      **BEAMS** department at [CERN](https://home.cern/).
+    - I developed a complex graphical application tool to develop, test, and diagnose equipment
+      throughout CERN's accelerator complex in python with the Qt framework by successfully
+      delivering fundamental pieces of the application such as feature-full plotting widgets
+      with bi-directional data binding, maintaining good UI responsiveness under high data
+      volumes/rates and integrating technical and functional constraints into the software to provide
+      rich user experience. This project enabled the physicists and operators at CERN with a user
+      friendly graphical application which helped improve their efficiency compared to working with
+      complicated command line tools.
+
+    - Technologies that I worked on: Python, PyQt, pyqtgraph,
+      pytest-qt, Numpy.
+    - More about BEAMS - Controls Software and Services group
+      of CERN can be found [here.](https://be-dep-css.web.cern.ch/)
+
+- company: "Python Software Foundation"
+  role: "Google Summer of Code 2020 - Student Developer"
+  start_date: "March 2020"
+  end_date: "September 2020"
+  logo: "/assets/images/logos/GSoC-logo.png"
+  tech_used:
+    - "Python"
+    - "PyBullet"
+    - "Numpy"
+    - "VTK"
+  description: |
+    - **Sub-org:** [FURY](https://github.com/fury-gl/fury/)
+    - As a python developer, I worked on an open source python graphics library
+      [FURY](https://github.com/fury-gl/fury/) where I developed optimized Virtual Reality ready 2D and 3D graphical user interfaces from
+      scratch via graphics primitives and provided physics engine integration with pyBullet. More
+      information regarding my weekly progress can be found at the official (Python Software Foundation blogs)[https://blogs.python-gsoc.org/en/nibba2018s-blog/].
+      My work benefited the organisation with additional UI components and a fully documented
+      physics engine integration.
+
+    - Technologies that I worked on: Python, PyBullet, Numpy,
+      VTK.
+    - [Project Link.](https://summerofcode.withgoogle.com/projects/#6653942668197888)
+    - [Final Work Report](https://gist.github.com/Nibba2018/85cdec3d0d0eb17ae0f8fb079a82b1b1)
+
+- company: "Indian Institute of Technology, Ropar"
+  role: "Software Engineer Research Intern"
+  start_date: "June 2019"
+  end_date: "August 2019"
+  logo: "/assets/images/logos/iit-logo.jpg"
+  tech_used:
+    - "Python"
+    - "Tensorflow"
+    - "Numpy"
+    - "PyQt"
+  description: |
+    - **Project:** *Personalized Summary Tool*.
+    - As a Research software engineer intern, I developed a complex graphical application to generate
+      Personalised Summaries of crowd-sourced articles to end-users by implementing Eye Gaze
+      Tracking, the graphical user interface and the complete flow and integrity of the application.
+      This work allowed the end users to generate their own personalised summary of the content being
+      browsed during their current session.
+
+    - Technologies that I worked on: Python, Tensorflow,
+      Numpy, PyQt.
+    - [Certificate link](https://drive.google.com/open?id=0B3AYKzFdd-xJNHVudjZGU0g1a3ZhWDNfb2QxTEl3Vkl1N09B).
+
+- company: "IEM IEDC"
+  role: "Core Product Developer and Analyst"
+  start_date: "December 2018"
+  end_date: "March 2021"
+  logo: "/assets/images/logos/iedc_logo.png"
+  tech_used:
+  description: |
+      - <ins>IEDC Cyber Cell</ins>
+        1. **Project:** *Malicious URL Detector*.
+        1. System layer proxy that provides protection against
+          malicious URLs with the help of Machine Learning and
+          custom filters based on Cyber-Security concepts.
+      - <ins>IEDC Aeronautics Cell</ins>
+        1. **Project:** *Autonomous Fixed Wing*.</li>
+        1. Depron Foam Based Airplane which uses a single
+          brushless DC motor for thrust and Ardupilot 2.6 for
+          its Autonomous functions. Requires servo to move
+          flaps.
+        1. **More Info:** [Video Link](https://drive.google.com/file/d/10G8-wkOaidYIDZF9XY30Ladu47vOp3vY/view?usp=sharing)
