@@ -1,0 +1,55 @@
+<div class="profile-page">
+    <div class="wrapper">
+      <div class="page-header page-header-small" filter-color="green">
+        <div
+          class="page-header-image"
+          data-parallax="true"
+          style="background-image: url('{{ site.bg_image }}')"
+        ></div>
+        <div class="container">
+          <div class="content-center">
+            <div class="cc-profile-image">
+              <a href="#"
+                ><img src="{{ site.profile_pic }}" alt="Image"
+              /></a>
+            </div>
+            <div class="h2 title">{{ site.first_name }} {{ site.last_name }}</div>
+            <p class="category text-white">💻 Software Engineer</p>
+            <a
+              class="btn btn-primary smooth-scroll mr-2"
+              href="#contact"
+              data-aos="zoom-in"
+              data-aos-anchor="data-aos-anchor"
+              ><i class="fa fa-user"></i> Hire Me</a
+            >
+            <a
+              class="btn btn-primary"
+              href="assets/documents/Resume.pdf"
+              data-aos="zoom-in"
+              data-aos-anchor="data-aos-anchor"
+              target="_blank"
+              download="Soham_Biswas_Resume.pdf"
+              ><i class="fa fa-download"></i> Download CV</a
+            >
+          </div>
+        </div>
+        <div class="section">
+          <div class="container">
+            <div class="button-container">
+              {% for sc in site.data.social %}
+                <a
+                    class="btn btn-default btn-round btn-lg btn-icon"
+                    href="{{ sc.link }}"
+                    rel="tooltip"
+                    title="Follow me on {{ sc.name }}"
+                    style="background-color: {{ sc.color }}"
+                    >
+                    <i class="fa fa-{{ sc.name | downcase }}"></i
+                ></a> 
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

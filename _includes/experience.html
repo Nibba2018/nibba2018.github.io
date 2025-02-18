@@ -1,0 +1,40 @@
+<div class="section" id="experience">
+    <div class="container cc-experience">
+      <div class="h4 text-center mb-4 title">Work Experience</div>
+      {% for exp in site.data.experience %}
+        <div class="card">
+            <div class="row">
+            <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+            >
+                <div class="card-body cc-experience-header-image">
+                <img
+                    style="background-color: white"
+                    src={{ exp.logo }}
+                    alt="cern-logo"
+                />
+                </div>
+                <div class="card-body cc-experience-header">
+                <p>{{ exp.start_date }} - {{ exp.end_date }}</p>
+                <div class="h5">{{ exp.company }}</div>
+                </div>
+            </div>
+            <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+            >
+                <div class="card-body">
+                <div class="h5">{{ exp.role }}</div>
+                {{ exp.description | markdownify | replace: "<ul>", "<ul class='card_list'> }}
+                </div>
+            </div>
+            </div>
+        </div>
+      {% endfor %}
+    </div>
+</div>
