@@ -1,0 +1,10 @@
+- journal: The Journal of Open Source Software
+  date: "4th August 2021"
+  logo: "/assets/images/logos/joss-logo.png"
+  title: "FURY: advanced scientific visualisation"
+  category: "Research Paper"
+  description: |
+    - **DOI:** 10.21105/joss.03384
+    - Read research paper [here](https://joss.theoj.org/papers/10.21105/joss.03384).
+  citation: "Garyfallidis et al., (2021). FURY: advanced scientific visualization. Journal of Open Source
+             Software, 6(64), 3384, https://doi.org/10.21105/joss.03384"
