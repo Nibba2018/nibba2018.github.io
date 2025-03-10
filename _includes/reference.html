@@ -1,0 +1,36 @@
+<div class="section" id="reference">
+    <div class="container cc-reference">
+      <div class="h4 mb-4 text-center title">References</div>
+      <div class="card" data-aos="zoom-in">
+        <div
+          class="carousel slide"
+          id="cc-Indicators"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            {% for ref in site.data.reference %}
+              <li class="{% if forloop.first %}active{% endif %}" data-target="#cc-Indicators" data-slide-to="{{ forloop.index0 }}"></li>
+            {% endfor %}
+          </ol>
+          <div class="carousel-inner">
+            {% for ref in site.data.reference %}
+              <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                <div class="row">
+                  <div class="col-lg-2 col-md-3 cc-reference-header">
+                    <img src={{ ref.profile_pic }} alt="Image" />
+                    <div class="h5 pt-2">{{ ref.name }}</div>
+                    <p class="category">{{ ref.designation }}</p>
+                  </div>
+                  <div class="col-lg-10 col-md-9">
+                    <p>
+                      {{ ref.recommendation | markdownify | replace: "<ul>", "<ul class='card_list'> }}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

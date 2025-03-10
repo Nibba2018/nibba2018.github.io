@@ -1,0 +1,48 @@
+<div class="section" id="publication">
+    <div class="container cc-education">
+      <div class="h4 text-center mb-4 title">Publications</div>
+      {% for pub in site.data.publication %}
+        <div class="card">
+          <div class="row">
+            <div
+              class="col-md-3 bg-primary"
+              data-aos="fade-right"
+              data-aos-offset="50"
+              data-aos-duration="500"
+            >
+              <div class="card-body cc-experience-header-image">
+                <center>
+                  <img
+                    src={{ pub.logo }}
+                    alt="joss-logo"
+                  />
+                </center>
+              </div>
+              <div class="card-body cc-education-header">
+                <p> {{ pub.date }}</p>
+                <div class="h5">{{ pub.journal }}</div>
+              </div>
+            </div>
+            <div
+              class="col-md-9"
+              data-aos="fade-left"
+              data-aos-offset="50"
+              data-aos-duration="500"
+            >
+            <div class="card-body">
+              <div class="h5">{{ pub.title }}</div>
+              <p class="category">
+                {{ pub.category }}
+              </p>
+              {{ pub.description | markdownify | replace: "<ul>", "<ul class='card_list'> }}
+              <br>
+              <p style="text-align: center; background-color: aliceblue;">
+                {{ pub.citation }}
+              </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+</div>

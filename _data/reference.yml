@@ -1,0 +1,60 @@
+- name: Luis Miguens Fernandez
+  profile_pic: "/assets/images/luis.jpeg"
+  designation: "Computing Engineer at CERN"
+  recommendation: |
+    I highly recommend Soham Biswas, who contributed to the 
+    **Next Generation Alarm and Event Screen** project at CERN. I had the pleasure of working
+    with him as his supervisor. Soham excelled in developing components using **C++** and 
+    the **Qt** framework, ensuring efficient, maintainable code. He also optimized our CI/CD
+    processes through Gitlab Pipelines, significantly improving our workflow.<br/><br/>
+    Additionally, his expertise with the SCADA system **Siemens WinCC OA** was crucial in integrating 
+    our project with the existing infrastructure. Soham's technical skills, dedication, and teamwork 
+    make him a valuable asset to any organization. I strongly endorse him for any engineering role.<br/><br/>
+    I am confident that Soham will be a valuable asset to any organisation he chooses to join.
+    I strongly recommend him for any position that requires a skilled, motivated and reliable engineer.
+
+- name: Pierre Mantion
+  profile_pic: "/assets/images/pierre.png"
+  designation: "Computing Engineer at CERN"
+  recommendation: |
+    It is my pleasure to recommend Soham Biswas for a
+    position within your Organisation. Soham was employed
+    in our Group as a Software Developer. I had the
+    opportunity to work with Soham as his mentor within
+    the section as well as the lead of the project he
+    worked on. During that period, he showed himself to be
+    a versatile and smart developer.<br/><br/>
+    Soham was hired to work on the "**FESA Navigator**", a complex graphical application that is an
+    essential tool to develop, test and diagnose equipment
+    throughout CERN's accelerator complex. As part of part
+    of his work on the GUI application, Soham proved able
+    to implement complex graphical elements (e.g
+    feature-full plotting widgets with bidirectional data
+    binding), but also handle challenging technical issues
+    such as maintaining good UI responsiveness under high
+    data volumnes/rates.<br/><br/>
+    I have really enjoyed working with Soham, and highly
+    recommend him to any future employer.
+
+- name: Avijit Bose
+  profile_pic: "/assets/images/avijit.jpeg"
+  designation: "Founder IEM-IEDC RnD Lab"
+  recommendation: |
+    It is my pleasure and honour to recommend Soham Biswas
+    as a Software Developer for your Organisation. I was
+    his University Professor and have known him for over
+    three years now. I was delighted to supervise his
+    activities at IEM Innovation lab and Entrepreneurship
+    Development Cell.<br /><br/>
+    He is exceptionally skilled in **Python** and is well
+    known for his Programming and Robotics projects. He
+    has been a member of our esteemed R&D lab, namely IEDC
+    since his freshman year and has been contributing to
+    various technical projects for the same. He possesses
+    knowledge about other computer science domains as
+    well. <br /><br/>
+    I feel certain that you will be just as impressed with
+    Soham as I am. As an educator who is committed to
+    helping deserving students succeed, I strongly
+    encourage you to consider Soham for a role in your
+    Organisation.
