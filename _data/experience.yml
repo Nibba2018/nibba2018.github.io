@@ -1,3 +1,19 @@
+- company: "CASCINATION AG"
+  role: "Software Engineer (R&D)"
+  start_date: "May 2025"
+  end_date: "present"
+  logo: "/assets/images/logos/cascination-logo.png"
+  tech_used:
+    - "C++"
+    - "Qt"
+    - "Jenkins CI"
+  description: |
+    - Contributing to the development of **OTODRIVE®**, a motorized drive system enabling slow, precise, and consistent movement during otologic surgery. As part of the R&D team, I played a key role in the wireless Bluetooth connectivity architecture, significantly improving device communication reliability and usability.
+
+    - By redesigning and optimizing the **Bluetooth** workflow, I reduced connection and setup time by **~90%**, directly enhancing operating room efficiency and overall user experience. The work supported seamless O.R. integration, intuitive Windows-based software, and reliable hands-free control, helping deliver a robust, environmentally friendly, and surgeon-centric medical device.
+
+    - Technologies that I worked on: C++, Qt/QML, Jenkins CI/CD.
+
 - company: "CERN"
   role: "Software Engineer"
   start_date: "March 2023"

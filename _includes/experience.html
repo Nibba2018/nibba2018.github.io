@@ -3,21 +3,23 @@
       <div class="h4 text-center mb-4 title">Work Experience</div>
       {% for exp in site.data.experience %}
         <div class="card">
-            <div class="row">
+            <div class="row" style="align-items: stretch;">
             <div
                 class="col-md-3 bg-primary"
                 data-aos="fade-right"
                 data-aos-offset="50"
                 data-aos-duration="500"
+                style="display: flex; flex-direction: column;"
             >
-                <div class="card-body cc-experience-header-image">
+                <div class="card-body cc-experience-header-image"
+                    style="display: flex; align-items: center; justify-content: center; flex: 1 1 auto; background-color: white;">
                 <img
-                    style="background-color: white"
+                    style="max-width: 100%; max-height: 200px; height: auto; width: auto; display: block;"
                     src={{ exp.logo }}
-                    alt="cern-logo"
+                    alt="{{ exp.company }} logo"
                 />
                 </div>
-                <div class="card-body cc-experience-header">
+                <div class="card-body cc-experience-header" style="flex: 0 0 auto;">
                 <p>{{ exp.start_date }} - {{ exp.end_date }}</p>
                 <div class="h5">{{ exp.company }}</div>
                 </div>
@@ -30,7 +32,7 @@
             >
                 <div class="card-body">
                 <div class="h5">{{ exp.role }}</div>
-                {{ exp.description | markdownify | replace: "<ul>", "<ul class='card_list'> }}
+                {{ exp.description | markdownify | replace: "<ul>", "<ul class='card_list'>" }}
                 </div>
             </div>
             </div>
